@@ -1,0 +1,25 @@
+# Model weights, checkpoints
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoints/
+lora_weights/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Large raw dataset
+data/*.zip
+data/*.tar
+demo_samples/*.jpg
+demo_samples/*.png
