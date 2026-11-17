@@ -1,25 +1,15 @@
-# Model weights, checkpoints
-*.bin
-*.safetensors
-*.pt
-*.pth
-checkpoints/
-lora_weights/
+# Ignore images and datasets
+dataset/
+*.csv
+*.zip
 
-# Python cache
+# Ignore Virtual Environment
+venv311/
+venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+.ipynb_checkpoints
 
-# Jupyter notebook
-.ipynb_checkpoints/
-
-# Log files
-*.log
-
-# Large raw dataset
-data/*.zip
-data/*.tar
-demo_samples/*.jpg
-demo_samples/*.png
+# Ignore OS files
+.DS_Store
+Thumbs.db
