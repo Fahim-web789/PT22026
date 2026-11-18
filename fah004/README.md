@@ -22,7 +22,7 @@ The system uses OpenAI's **CLIP (Contrastive Language-Image Pretraining)** model
 *   **Dynamic Category Filtering:** Filter results by product category (e.g., Shoes, Dresses, Bags).
 *   **Pagination:** Efficiently browse through large datasets (10,000 images) without crashing the browser.
 *   **Premium UI:** Custom CSS designed to mimic a high-end e-commerce boutique (similar to ASOS or Zara).
-
+![Homepage and Text Search](screenshot/home.png)
 ## 🏗️ Architecture & Tech Stack
 *   **Machine Learning Model:** `clip-ViT-B-32` (via `sentence-transformers`)
 *   **Framework:** Streamlit (Python)
