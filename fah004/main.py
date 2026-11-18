@@ -46,6 +46,10 @@ st.markdown("""
 
 /* Hide Streamlit clutter */
 #MainMenu {visibility: hidden;} footer {visibility: hidden;} header {visibility: hidden;}
+
+/* Fix Expander Text Visibility */
+[data-testid="stExpander"] summary { color: #000000 !important; font-weight: 600 !important; }
+[data-testid="stExpander"] p { color: #000000 !important; }
 </style>
 """, unsafe_allow_html=True)
 
